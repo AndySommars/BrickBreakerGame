@@ -1,0 +1,43 @@
+.container {
+	height: 600px;
+	width: 80%;
+	margin: 0 auto;
+	margin-left: 5%;
+	overflow: hidden;
+	border: 2px solid rgb(101, 99, 99);
+	margin-top: 0px;
+	position: relative;
+	z-index: +1;
+	background-color: #306e8e;
+	font-family: 'Stardos Stencil', cursive;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.score,
+.lives {
+	font-size: 3em;
+	font-family: 'Stardos Stencil', cursive;
+	font-weight: normal;
+	font-style: normal;
+}
+.brick {
+	grid-template-columns: auto auto auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 91px;
+	height: 40px;
+	padding: 1px 0;
+	color: white;
+	border: 1px solid white;
+	background-image: "url('brickis.png')";
+	background-size: 100%;
+	font-size: 1.8em;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Stardos Stencil', cursive;
+	font-weight: normal;
+	font-style: normal;
+}
